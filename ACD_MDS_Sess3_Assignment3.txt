@@ -1,0 +1,3 @@
+import functools
+longestWord = lambda x,y : x if (len(x) > len(y)) else y
+functools.reduce(longestWord,['SachinTendulkar','RahulDravid','AnilKumble'])
